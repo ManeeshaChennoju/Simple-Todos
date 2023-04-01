@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.todo_List_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo {
+  color: rgb(19, 4, 4);
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+
+.deleteButton {
+  background-color: transparent;
+  border: 1px solid rgb(110, 2, 2);
+  color: rgb(221, 15, 15);
+  border-radius: 5px;
+  padding: 2px;
+  width: 50px;
+  box-shadow: 0px;
+}
